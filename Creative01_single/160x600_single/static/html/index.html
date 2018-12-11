@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="template.type" content="<!-- @echo template -->">
+  <meta name="ad.size" content="width=<!-- @echo collapsedWidth -->,height=<!-- @echo collapsedHeight -->">
+  <!-- @if template='FT' -->
+  <!-- @include /templates/header/FT.html -->
+  <!-- @endif -->
+  <!-- @if template='DC' -->
+  <!-- @include ./templates/header/DC.html -->
+  <!-- @endif -->
+  <!-- @if template='DCM' -->
+  <!-- @include ./templates/header/DCM.html -->
+  <!-- @endif -->
+  <!-- @if template='AdWords' -->
+  <!-- @include ./templates/header/AdWords.html -->
+  <!-- @endif -->
+  <!-- @if template='Sizmek' -->
+  <!-- @include ./templates/header/Sizmek.html -->
+  <!-- @endif -->
+  <script type="application/javascript">
+      // <previewData />
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+  <!--PUT ALL OTHER STYLESHEETS BELOW THIS COMMENT -->
+</head>
+<body>
+
+
+
+<!-- @include /templates/root.html -->
+<!-- @if template='FT' -->
+<!-- @include /templates/footer/FT.html -->
+<!-- @endif -->
+<!-- @include /templates/mainFooter.html -->
+</body>
+</html>

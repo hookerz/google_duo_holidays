@@ -1,0 +1,75 @@
+@import './hook-mixins/normalize';
+@import './libsass-compass/compass';
+@import './libsass-compass/compass/css3/transform';
+@import './hook-mixins/sprite-mixins';
+// @if isStandard=true
+@import './spritesheets/sprite-standard-background';
+@import './spritesheets/sprite-standard-foreground';
+// @endif
+// @if isStandard=false
+@import './spritesheets/sprite-collapsed-background';
+@import './spritesheets/sprite-collapsed-foreground';
+// @endif
+// @if isExpando=true
+// @if isAutoExpand=true
+@import './spritesheets/sprite-expanded-background';
+@import './spritesheets/sprite-expanded-foreground';
+@import './spritesheets/sprite-auto-expanded-background';
+@import './spritesheets/sprite-auto-expanded-foreground';
+// @endif
+// @if isAutoExpand=false
+@import './spritesheets/sprite-expanded-background';
+@import './spritesheets/sprite-expanded-foreground';
+// @endif
+// @endif
+
+/**
+set up variables
+These are populated by compiler Vars during build
+set values in /compiler-directives.js
+**/
+$collapsed-width: /*@exclude*/
+        0/*@endexclude*/
+/* @ifdef collapsedWidth **
+/*@exec sasspx(collapsedWidth)*/
+/* @endif */
+;
+$collapsed-height: /*@exclude*/
+        0/*@endexclude*/
+/* @ifdef collapsedHeight **
+/*@exec sasspx(collapsedHeight)*/
+/* @endif */
+;
+$expanded-width: /*@exclude*/
+        0/*@endexclude*/
+/* @ifdef expandedWidth **
+/*@exec sasspx(expandedWidth)*/
+/* @endif */
+;
+$expanded-height: /*@exclude*/
+        0/*@endexclude*/
+/* @ifdef expandedHeight **
+/*@exec sasspx(expandedHeight)*/
+/* @endif */
+;
+// color vars
+$white: #FFFFFF;
+$whitetrans: rgba(255, 255, 255, 0);
+$black: #000000;
+$red: #FF0000;
+$green: #107c10;
+
+// global
+@import './root';
+// @if isStandard=true
+@import './standard-panel';
+// @endif
+//
+// @if isStandard=false
+@import './preloaders';
+@import './collapsed-panel';
+
+// @if isExpando=true
+@import './expanded-panel';
+// @endif
+// @endif

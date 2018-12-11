@@ -1,0 +1,73 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: map-get($icon-home, 'width');
+}
+
+At the bottom of this section, we provide information about the spritesheet itself
+*/
+
+$standard-foreground-map: (
+phone_flat: (
+  name: 'phone_flat',
+  x: 0px,
+  y: 0px,
+  offset-x: 0px,
+  offset-y: 0px,
+  width: 140px,
+  height: 292px,
+  total-width: 360px,
+  total-height: 292px,
+  image: '../images/standard-foreground-sprite.png',
+  usejpg: false
+),
+snowflake01: (
+  name: 'snowflake01',
+  x: 144px,
+  y: 144px,
+  offset-x: -144px,
+  offset-y: -144px,
+  width: 104px,
+  height: 92px,
+  total-width: 360px,
+  total-height: 292px,
+  image: '../images/standard-foreground-sprite.png',
+  usejpg: false
+),
+snowflake02: (
+  name: 'snowflake02',
+  x: 144px,
+  y: 0px,
+  offset-x: -144px,
+  offset-y: 0px,
+  width: 144px,
+  height: 140px,
+  total-width: 360px,
+  total-height: 292px,
+  image: '../images/standard-foreground-sprite.png',
+  usejpg: false
+),
+snowflake03: (
+  name: 'snowflake03',
+  x: 292px,
+  y: 0px,
+  offset-x: -292px,
+  offset-y: 0px,
+  width: 68px,
+  height: 68px,
+  total-width: 360px,
+  total-height: 292px,
+  image: '../images/standard-foreground-sprite.png',
+  usejpg: false
+),
+spritesheet: (
+  width: 360px,
+  height: 292px,
+  image: '../images/standard-foreground-sprite.png'
+)
+
+)
+
+
+

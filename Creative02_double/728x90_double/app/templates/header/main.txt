@@ -1,0 +1,7 @@
+// needed for promise support in IE 11
+// @if polyfill=true
+import './polyfill'
+// @endif
+import {config, setup, adKit, getRichBase} from './hook-ad-kit/config';
+import {getBaseURL} from './hook-ad-kit/Util'
+import {cssUpdate} from './hook-ad-kit/loading';

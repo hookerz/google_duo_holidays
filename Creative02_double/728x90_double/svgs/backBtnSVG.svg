@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 56 32"  style="enable-background:new 0 0 56 32;" xml:space="preserve">
+<style type="text/css">
+	.backBtnFill{opacity:0.75;fill-rule:evenodd;clip-rule:evenodd;fill:#167D3E;}
+</style>
+
+<path class="backBtnFill" d="M14,29.99c0,0,9.79-13.74,9.54-14.03C23.43,15.83,14,3.01,14,3.01h3.82c0,0,9.55,13.46,9.53,12.8
+	c0-0.19-9.53,14.19-9.53,14.19H14V29.99z"/>
+<path class="backBtnFill" d="M23.33,29.99c0,0,9.79-13.74,9.54-14.03c-0.11-0.13-9.54-12.95-9.54-12.95h3.82c0,0,9.55,13.46,9.53,12.8
+	c0-0.19-9.53,14.19-9.53,14.19h-3.82V29.99z"/>
+<path class="backBtnFill" d="M32.65,29.99c0,0,9.79-13.74,9.54-14.03c-0.11-0.13-9.54-12.95-9.54-12.95h3.82c0,0,9.55,13.46,9.53,12.8
+	C46,15.62,36.47,30,36.47,30h-3.82V29.99z"/>
+<rect id="backBtnHit" opacity="0" x="14" y="2" width="40" height="30"/>
+</svg>

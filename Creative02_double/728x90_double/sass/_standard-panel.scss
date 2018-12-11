@@ -1,0 +1,136 @@
+
+
+  .content {
+    position: absolute;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    @extend .size-collapsed;
+    opacity: 0;
+    background-color: blue;
+  
+    width: $collapsed-width;
+    height: $collapsed-height;
+    img {
+      position: absolute;
+    }
+
+    .catch-all {
+      @extend .size-collapsed;
+      @extend .catch-all;
+    }
+
+    // .cta is the interactive hit area of the CTA button
+    .cta {
+      @extend .basic-button;
+      width: 100px;
+      height: 33px;
+      left: 608px;
+      top: 28px;
+      background-color: rgba(200,0,200,0);
+
+    }
+	
+	
+	#snowflake01 {
+	  @include sprite-retina ($standard-foreground-map, 'snowflake01');
+	  position: absolute;
+	  top: -12px;
+	  left: 496px;
+	}
+	#snowflake02 {
+	  @include sprite-retina ($standard-foreground-map, 'snowflake02');
+	  position: absolute;
+	  top: 30px;
+	  left: 400px;
+	}
+	#snowflake03 {
+	  @include sprite-retina ($standard-foreground-map, 'snowflake03');
+	  position: absolute;
+	  top: 73px;
+	  left: 533px;
+	}
+	
+	
+	#phone01_container {
+	  position: absolute;
+	  left: 445px;
+	  top: 8px;
+	  width: 85px;
+	  height: 175px;
+	}
+	
+	#phone01_flat {
+	  @include sprite-retina ($standard-foreground-map, 'phone01_flat');
+	  position: absolute;
+	}
+	
+	#phone01_mask {
+	  position: absolute;
+	  left: 3px;
+	  top: 0px;
+	  width: 73px;
+	  height: 157px;
+	  border-radius: 10px;
+	  overflow: hidden;
+	}
+	
+	#phone01_shine {
+	  position: absolute;
+	  background-color: white;
+	  left: 3px;
+	  top: 0px;
+	  width: 250px;
+	  height: 268px;
+	}
+	
+	#phone01_edge {
+	  @include sprite-retina ($standard-foreground-map, 'phone01_flat');
+	  position: absolute;
+	}
+	
+	
+	#phone02_container {
+	  position: absolute;
+	  left: 480px;
+	  top: 17px;
+	  width: 74px;
+	  height: 154px;
+	}
+	
+	#phone02_flat {
+	  @include sprite-retina ($standard-foreground-map, 'phone02_flat');
+	  position: absolute;
+	}
+	
+	#phone02_mask {
+	  position: absolute;
+	  left: 3px;
+	  top: 0px;
+	  width: 100px;
+	  height: 208px;
+	  border-radius: 10px;
+	  overflow: hidden;
+	}
+	
+	#phone02_shine {
+	  position: absolute;
+	  background-color: white;
+	  left: 3px;
+	  top: 0px;
+	  width: 250px;
+	  height: 268px;
+	}
+	
+	#phone02_edge {
+	  @include sprite-retina ($standard-foreground-map, 'phone02_flat');
+	  position: absolute;
+	}
+	
+
+	#bg {
+	  background-color: white;
+	  position: absolute;
+	}
+
+  }

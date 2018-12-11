@@ -1,0 +1,4 @@
+AutoExpand(adKit, config, AutoExpandedPanel, CollpasedPreloader, ExpandedPreloader)
+        .then(function (state) {
+          Expand(adKit, config, CollapsedPanel, ExpandedPanel, state, CollpasedPreloader, ExpandedPreloader)
+        })

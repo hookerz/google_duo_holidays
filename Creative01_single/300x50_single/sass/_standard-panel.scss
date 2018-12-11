@@ -1,0 +1,63 @@
+
+
+  .content {
+    position: absolute;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    @extend .size-collapsed;
+    opacity: 0;
+    background-color: blue;
+  
+    width: $collapsed-width;
+    height: $collapsed-height;
+    img {
+      position: absolute;
+    }
+
+    .catch-all {
+      @extend .size-collapsed;
+      @extend .catch-all;
+    }
+
+    // .cta is the interactive hit area of the CTA button
+    .cta {
+      @extend .basic-button;
+      width: 60px;
+      height: 18px;
+      left: 230px;
+      top: 16px;
+      background-color: rgba(200,0,200,0);
+
+    }
+	
+	
+	#snowflake01 {
+	  @include sprite-retina ($standard-foreground-map, 'snowflake01');
+	  position: absolute;
+	  top: -30px;
+	  left: 210px;
+	}
+	#snowflake02 {
+	  @include sprite-retina ($standard-foreground-map, 'snowflake02');
+	  position: absolute;
+	  top: 35px;
+	  left: 150px;
+	}
+	#snowflake03 {
+	  @include sprite-retina ($standard-foreground-map, 'snowflake03');
+	  position: absolute;
+	  top: 40px;
+	  left: 243px;
+	}
+	
+	
+	
+	
+
+	#bg {
+	  background-color: white;
+	  position: absolute;
+	}
+
+  }

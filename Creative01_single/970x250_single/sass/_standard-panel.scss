@@ -1,0 +1,98 @@
+
+
+  .content {
+    position: absolute;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    @extend .size-collapsed;
+    opacity: 0;
+    background-color: blue;
+  
+    width: $collapsed-width;
+    height: $collapsed-height;
+    img {
+      position: absolute;
+    }
+
+    .catch-all {
+      @extend .size-collapsed;
+      @extend .catch-all;
+    }
+
+    // .cta is the interactive hit area of the CTA button
+    .cta {
+      @extend .basic-button;
+      width: 137px;
+      height: 43px;
+      left: 772px;
+      top: 103px;
+      background-color: rgba(200,0,200,0);
+
+    }
+	
+	
+	#snowflake01 {
+	  @include sprite-retina ($standard-foreground-map, 'snowflake01');
+	  position: absolute;
+	  top: 5px;
+	  left: 616px;
+	}
+	#snowflake02 {
+	  @include sprite-retina ($standard-foreground-map, 'snowflake02');
+	  position: absolute;
+	  top: 140px;
+	  left: 370px;
+	}
+	#snowflake03 {
+	  @include sprite-retina ($standard-foreground-map, 'snowflake03');
+	  position: absolute;
+	  top: 193px;
+	  left: 703px;
+	}
+	
+	
+	#phone_container {
+	  position: absolute;
+	  left: 470px;
+	  top: 25px;
+	  width: 70px;
+	  height: 120px;
+	}
+	
+	#phone_flat {
+	  @include sprite-retina ($standard-foreground-map, 'phone_flat');
+	  position: absolute;
+	}
+	
+	#phone_mask {
+	  position: absolute;
+	  left: 3px;
+	  top: 0px;
+	  width: 177px;
+	  height: 308px;
+	  border-radius: 20px;
+	  overflow: hidden;
+	}
+	
+	#phone_shine {
+	  position: absolute;
+	  background-color: white;
+	  left: 3px;
+	  top: 0px;
+	  width: 250px;
+	  height: 268px;
+	}
+	
+	#phone_edge {
+	  @include sprite-retina ($standard-foreground-map, 'phone_flat');
+	  position: absolute;
+	}
+	
+
+	#bg {
+	  background-color: white;
+	  position: absolute;
+	}
+
+  }

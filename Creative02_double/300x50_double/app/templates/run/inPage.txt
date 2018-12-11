@@ -1,0 +1,1 @@
+InPage(adKit, config, CollapsedPanel, CollpasedPreloader)
